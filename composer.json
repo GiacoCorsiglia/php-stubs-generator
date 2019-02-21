@@ -25,12 +25,12 @@
     "require": {
         "php": ">=7.1",
         "symfony/console": "^4.0",
-        "nikic/php-parser": "^3.1",
+        "nikic/php-parser": "^4.2.1",
         "symfony/finder": "^4.0",
         "symfony/filesystem": "^4.0"
     },
     "require-dev": {
-        "vimeo/psalm": "^0.3.92",
+        "vimeo/psalm": "^3.0.17",
         "phpunit/phpunit": "^7.0",
         "friendsofphp/php-cs-fixer": "^2.10"
     },
