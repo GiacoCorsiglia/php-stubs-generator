@@ -113,6 +113,10 @@ class StubsGenerator
 
         $unparsed = [];
         foreach ($finder as $file) {
+            if (is_a($file, 'SplFileInfo')) {
+                $file = new \Symfony\Component\Finder\SplFileInfo($file->getRealPath(), $file->getPath(), $file->getPathname());
+            }
+
             $stmts = null;
             try {
                 $stmts = $parser->parse($file->getContents());
