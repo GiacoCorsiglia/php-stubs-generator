@@ -1,3 +1,9 @@
+# ‼️ This project is not maintained ‼️
+
+You should use the fork at [php-stubs/generator](https://github.com/php-stubs/generator), which is thanks to [@szepeviktor](https://github.com/szepeviktor).
+
+---
+
 # PHP Stubs Generator
 
 [![Build Status](https://travis-ci.org/GiacoCorsiglia/php-stubs-generator.svg?branch=master)](https://travis-ci.org/GiacoCorsiglia/php-stubs-generator)
